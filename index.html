@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>System Game Information</title>
+<link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div id="box1" style="background: white">SECRET</div>
+
+    <!--
+        1. Inline
+        2. Internal
+        3. External
+    -->
+
+    <h1>???</h1>
+    <button onclick="doSomething()" style="background-color:#3b68ff;color:#ededed;border-radius:5px">Hmmmm</button>
+    
+    <p id="test">Cliquer pour voir un secret</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Un secret ??";
+        }
+    </script>
+<p id="p1" class="odd">Vous avez trouvé un texte invisible je vois, bien joué mais c'est peut - être pas finie n'est ce pas ? </p>
+</body>
+</html>
